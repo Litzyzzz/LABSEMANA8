@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ejercicio 5</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>418</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelNombre">
+       <property name="text">
+        <string>Nombre (s)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEnom"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelApe">
+       <property name="text">
+        <string>Apellido (s)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEap"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelNaci">
+       <property name="text">
+        <string>Nacionalidad</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEnac"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="labelDate">
+       <property name="text">
+        <string>Fecha de nacimiento</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QDateEdit" name="dateEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="labelTel">
+       <property name="text">
+        <string>Teléfono</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="labelID">
+       <property name="text">
+        <string>DUI</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEtel"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="lineEdui"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="labelEmail">
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="lineEmail"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="labelLoc">
+       <property name="text">
+        <string>Localidad</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="lineEloc"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="labelEC">
+       <property name="text">
+        <string>Estado Civil</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="lineEcivil"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="labelGen">
+       <property name="text">
+        <string>Género</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="lineEgen"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>300</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enviar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>476</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
