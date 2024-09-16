@@ -7,6 +7,7 @@ Construir un programa que muestre una
 ventana y que lea una clave secreta sin 
 mostrar los caracteres que la componen
 """
+#clase principal
 class ventanaMain(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -15,7 +16,7 @@ class ventanaMain(QMainWindow):
         self.contratxt = self.findChild(QtWidgets.QLineEdit, "lineEdit")
         self.etiquetaN= self.findChild(QtWidgets.QLabel,"label_2")
         self.boton.clicked.connect(self.pasarContra)
-    
+    #esta funcion nos permite verificar que la contra que se ingresa es la valida en este caso la contra es HolaMundo
     def pasarContra(self):
         contra =self.contratxt.text()
         if contra == "HolaMundo":
