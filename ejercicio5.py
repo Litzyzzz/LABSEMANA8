@@ -10,7 +10,7 @@ Construir un programa que muestre una ventana a traves
 de la cual se puedan leer 10 datos caracteristicos
 de una persona
 """
-class ventanaPrin(QMainWindow):
+class ventanaPrin(QMainWindow): #clase principal en donde se agregan los datos de la persona
     def __init__(self):
         super().__init__()
         uic.loadUi("ej5GUI.ui", self)
@@ -42,7 +42,8 @@ class ventanaPrin(QMainWindow):
         self.vdatos = ventanaDatos(nom,ape,nacio,naci,tel,
                                    dui, email, loca, esciv,gen)
         self.vdatos.show()
-
+      
+#clase en donde permite mostrar los datos de la primer ventana a la nueva que se creó
 class ventanaDatos(QWidget):
     def __init__(self,nom, ape, nacio,naci,tel,
                  dui,email,loca,esciv,gen ):
