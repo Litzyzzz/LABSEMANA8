@@ -1,0 +1,27 @@
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5 import uic
+
+"""
+Construir un programa que muestre una ventana
+a través de la cual se pueda leer su número de cédula 
+y su nombre completo.
+"""
+
+class VentanaMain(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi("ej3GUI.ui", self)  
+
+        self.pushButton.clicked.connect(self.mostrarDatos)
+
+    def mostrarDatos(self):
+        cedula = self.lineEditCedula.text()
+        nombre = self.lineEditNombre.text()
+        
+        self.labelResultado.setText(f"Su nombre es {nombre} y su cédula es {cedula}")
+
+app = QApplication(sys.argv)
+ventana = VentanaMain()
+ventana.show()
+app.exec_()

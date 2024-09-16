@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VentanaPlatos</class>
+ <widget class="QMainWindow" name="VentanaPlatos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registro de Platos</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+
+    <item>
+     <widget class="QGroupBox" name="groupBoxPlato1">
+      <property name="title">
+       <string>Plato 1</string>
+      </property>
+      <layout class="QFormLayout" name="formLayoutPlato1">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelNombre1">
+         <property name="text">
+          <string>Nombre:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEditNombre1"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelIngredientes1">
+         <property name="text">
+          <string>Ingredientes:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEditIngredientes1"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelTipoPlato1">
+         <property name="text">
+          <string>Tipo de Plato:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="comboBoxTipoPlato1">
+         <item>
+          <property name="text">
+           <string>Entrada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Plato Principal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Postre</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelPrecio1">
+         <property name="text">
+          <string>Precio:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEditPrecio1"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+
+    <item>
+     <widget class="QGroupBox" name="groupBoxPlato2">
+      <property name="title">
+       <string>Plato 2</string>
+      </property>
+      <layout class="QFormLayout" name="formLayoutPlato2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelNombre2">
+         <property name="text">
+          <string>Nombre:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEditNombre2"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelIngredientes2">
+         <property name="text">
+          <string>Ingredientes:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEditIngredientes2"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelTipoPlato2">
+         <property name="text">
+          <string>Tipo de Plato:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="comboBoxTipoPlato2">
+         <item>
+          <property name="text">
+           <string>Entrada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Plato Principal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Postre</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelPrecio2">
+         <property name="text">
+          <string>Precio:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEditPrecio2"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+ 
+    <item>
+     <widget class="QGroupBox" name="groupBoxPlato3">
+      <property name="title">
+       <string>Plato 3</string>
+      </property>
+      <layout class="QFormLayout" name="formLayoutPlato3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelNombre3">
+         <property name="text">
+          <string>Nombre:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEditNombre3"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelIngredientes3">
+         <property name="text">
+          <string>Ingredientes:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEditIngredientes3"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelTipoPlato3">
+         <property name="text">
+          <string>Tipo de Plato:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="comboBoxTipoPlato3">
+         <item>
+          <property name="text">
+           <string>Entrada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Plato Principal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Postre</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelPrecio3">
+         <property name="text">
+          <string>Precio:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEditPrecio3"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+
+    <item>
+     <widget class="QPushButton" name="pushButtonRegistrar">
+      <property name="text">
+       <string>Registrar Platos</string>
+      </property>
+     </widget>
+    </item>
+
+
+    <item>
+     <widget class="QLabel" name="labelResultado">
+      <property name="text">
+       <string>Resultados aparecerán aquí</string>
+      </property>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+  <menuBar/>
+  <statusBar/>
+ </widget>
+</ui>

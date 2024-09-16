@@ -1,0 +1,40 @@
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5 import uic
+
+"""
+Construir un programa que muestre una ventana
+a través de la cual se pueda leer tres datos básicos
+de 3 mascotas diferentes
+"""
+
+class VentanaMain(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi("ej4GUI.ui", self) 
+
+        self.pushButton.clicked.connect(self.mostrarDatos)
+
+    def mostrarDatos(self):
+        nombre1 = self.lineEditNombreMascota1.text()
+        tipo1 = self.lineEditTipoMascota1.text()
+        edad1 = self.lineEditEdadMascota1.text()
+
+        nombre2 = self.lineEditNombreMascota2.text()
+        tipo2 = self.lineEditTipoMascota2.text()
+        edad2 = self.lineEditEdadMascota2.text()
+
+        nombre3 = self.lineEditNombreMascota3.text()
+        tipo3 = self.lineEditTipoMascota3.text()
+        edad3 = self.lineEditEdadMascota3.text()
+
+        self.labelResultado.setText(
+            f"Primera mascota: {nombre1}, tipo: {tipo1}, edad: {edad1}\n"
+            f"Segunda mascota: {nombre2}, tipo: {tipo2}, edad: {edad2}\n"
+            f"Tercera mascota: {nombre3}, tipo: {tipo3}, edad: {edad3}"
+        )
+
+app = QApplication(sys.argv)
+ventana = VentanaMain()
+ventana.show()
+app.exec_()
