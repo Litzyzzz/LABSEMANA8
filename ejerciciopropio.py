@@ -4,7 +4,12 @@ from PyQt5 import uic
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-
+"""
+La problemática que queremos plantear con este programa es que un restaurante x necesita registrar
+y organizar los diferentes platillos junto con sus precios, así que planteamos esta solución en donde 
+ese restaurante puede registrar los distintos platillos que el cliente elige y asi de manera más eficiente obtener la informacion de 
+cada plato.
+"""
 class VentanaPlatos(QMainWindow):
     def __init__(self):
         super().__init__()
